@@ -1,0 +1,365 @@
+{
+    "responsible": {
+        "ranks": {
+            "civilian": "civilian",
+            "soldier": "soldier",
+            "senior_soldier": "senior soldier",
+            "junior_sergeant": "junior sergeant",
+            "sergeant": "sergeant",
+            "senior_sergeant": "senior sergeant",
+            "main_sergeant": "main sergeant",
+            "headquarters_sergeant": "headquarters sergeant",
+            "master_sergeant": "master sergeant",
+            "senior_master_sergeant": "senior master sergeant",
+            "main_master_sergeant": "main master sergeant",
+            "junior_lieutenant": "junior lieutenant",
+            "lieutenant": "lieutenant",
+            "senior_lieutenant": "senior lieutenant",
+            "capitan": "captain",
+            "major": "major",
+            "under_colonel": "lieutenant colonel",
+            "colonel": "colonel"
+        }
+    },
+    "pages": {
+        "home": {
+            "title": "Home"
+        },
+        "login": {
+            "title": "Sing in"
+        },
+        "profile": {
+            "title": "Profile",
+            "editBtn": "Edit",
+            "data": {
+                "name": "Name",
+                "username": "Username",
+                "role": "Role",
+                "createdAt": "Registration date",
+                "updatedAt": "Last update"
+            }
+        },
+        "users": {
+            "title": "Users",
+            "inMenu": "Users",
+            "header": {
+                "totalUsers": "Total users"
+            },
+            "table": {
+                "header": {
+                    "name": "Name",
+                    "username": "Username",
+                    "status": "Status",
+                    "role": "Role",
+                    "controls": "Actions"
+                },
+                "controls": {
+                    "info": "Show user",
+                    "update": "Edit user",
+                    "remove": "Remove user",
+                    "restore": "Restore user"
+                }
+            },
+            "controls": {
+                "newUserBtn": "Add user"
+            },
+            "forms": {
+                "create": {
+                    "title": "New user",
+                    "fields": {
+                        "name": {
+                            "placeholder": "Name",
+                            "label": "Name"
+                        },
+                        "username": {
+                            "placeholder": "Username",
+                            "label": "Username",
+                            "generateBtn": "Generate (Name field is filled in)"
+                        },
+                        "role": {
+                            "placeholder": "Role",
+                            "label": "Role"
+                        },
+                        "password": {
+                            "placeholder": "Password",
+                            "label": "Password",
+                            "showTitle": "Show password",
+                            "hideTitle": "Hide password",
+                            "generateTitle": "Generate password"
+                        }
+                    },
+                    "errors": {
+                        "firstSecondNamesRequired": "First and second name required."
+                    },
+                    "submitBtn": "Create",
+                    "toasts": {
+                        "success": {
+                            "title": "User created",
+                            "description": "User {name} created."
+                        }
+                    }
+                },
+                "update": {
+                    "title": "Edit user {name}",
+                    "fields": {
+                        "name": {
+                            "placeholder": "Name",
+                            "label": "Name"
+                        },
+                        "username": {
+                            "placeholder": "Username",
+                            "label": "Username",
+                            "generateBtn": "Generate (Name field is filled in)"
+                        },
+                        "role": {
+                            "placeholder": "Role",
+                            "label": "Role"
+                        },
+                        "password": {
+                            "placeholder": "Password",
+                            "label": "Password",
+                            "showTitle": "Show password",
+                            "hideTitle": "Hide password",
+                            "generateTitle": "Generate password"
+                        }
+                    },
+                    "submitBtn": "Update",
+                    "errors": {
+                        "firstSecondNamesRequired": "First and second name required."
+                    },
+                    "toasts": {
+                        "success": {
+                            "title": "User edit successfully",
+                            "description": "User {name} edit successfully."
+                        }
+                    }
+                },
+                "info": {
+                    "title": "User card: {name}",
+                    "fields": {
+                        "id": "ID",
+                        "name": "Name",
+                        "username": "Username",
+                        "role": "Role",
+                        "createdAt": "Created at",
+                        "updatedAt": "Last update",
+                        "deletedAt": "Deleted at"
+                    }
+                },
+                "remove": {
+                    "title": "Remove user {name}?",
+                    "submitBtn": "Remove",
+                    "cancelBtn": "Cancel",
+                    "toasts": {
+                        "success": {
+                            "title": "User removed!",
+                            "description": "User {name} removed."
+                        }
+                    }
+                },
+                "restore": {
+                    "title": "Restore user {name}?",
+                    "submitBtn": "Restore",
+                    "cancelBtn": "Cancel",
+                    "toasts": {
+                        "success": {
+                            "title": "User restored!",
+                            "description": "User {name} restored."
+                        }
+                    }
+                }
+            }
+        },
+        "responsible": {
+            "title": "Responsible",
+            "inMenu": "Responsible",
+            "header": {
+                "totalResponsible": "Total responsible"
+            },
+            "filter": {
+                "searchBtn": "Search",
+                "selectPlaceholder": "Rank",
+                "inputPlaceholder": "First name, second name, last name or position...",
+                "clearSearchBtn": "Clear search"
+            },
+            "controls": {
+                "newResponsibleBtn": "Add responsible"
+            },
+            "table": {
+                "header": {
+                    "firstName": "First name",
+                    "secondName": "Second name",
+                    "lastName": "Last name",
+                    "rank": "Rank",
+                    "position": "Position",
+                    "controls": "Actions"
+                },
+                "controls": {
+                    "info": "Show responsible",
+                    "update": "Edit responsible",
+                    "remove": "Remove responsible",
+                    "restore": "Restore responsible"
+                }
+            }
+        },
+        "devices": {
+            "title": "Devices",
+            "inMenu": "Devices",
+            "header": {
+                "totalDevices": "Total devices"
+            },
+            "filter": {
+                "searchBtn": "Search",
+                "queryPlaceholder": "Model, type, S/N, producer, MAC-address...",
+                "clearSearchBtn": "Clear search"
+            },
+            "controls": {
+                "newDeviceBtn": "Add device"
+            },
+            "table": {
+                "header": {
+                    "type": "Type",
+                    "producer": "Producer",
+                    "model": "Model",
+                    "serialNumber": "S/N",
+                    "responsible": "Responsible",
+                    "ipAddress": "IP-address",
+                    "macAddress": "MAC-address",
+                    "createdAt": "Created",
+                    "updatedAt": "Updated"
+                }
+            }
+        },
+        "networks": {
+            "title": "Networks",
+            "inMenu": "Networks",
+            "header": {
+                "totalNetworks": "Total networks"
+            },
+            "table": {
+                "header": {
+                    "address": "Address",
+                    "ipAddresses": "IP-addresses",
+                    "ipAddressesCount": "Count IP-addresses",
+                    "createdAt": "Created",
+                    "updatedAt": "Updated"
+                },
+                "cells": {
+                    "show": "Show"
+                }
+            },
+            "filter": {
+                "searchBtn": "Search",
+                "firstOctetPlaceholder": "1st octet",
+                "secondOctetPlaceholder": "2nd octet",
+                "thirdOctetPlaceholder": "3rd octet",
+                "clearSearchBtn": "Clear search"
+            },
+            "controls": {
+                "newNetworkBtn": "Add network"
+            }
+        },
+        "ipAddresses": {
+            "title": "IP-addresses",
+            "inMenu": "IP-addresses",
+            "header": {
+                "network": "Network",
+                "totalIPAddresses": "Total IP-addresses"
+            },
+            "table": {
+                "header": {
+                    "address": "Address",
+                    "ipAddresses": "IP-addresses",
+                    "createdAt": "Created",
+                    "updatedAt": "Updated"
+                }
+            },
+            "filter": {
+                "searchBtn": "Search",
+                "secondOctetPlaceholder": "2nd octet",
+                "thirdOctetPlaceholder": "3rd octet",
+                "fourthOctetPlaceholder": "4th octet",
+                "clearSearchBtn": "Clear search"
+            },
+            "controls": {
+                "newIPAddressBtn": "Add IP-address"
+            }
+        }
+    },
+    "forms": {
+        "login": {
+            "fields": {
+                "username": {
+                    "label": "Username",
+                    "placeholder": "Please enter username"
+                },
+                "password": {
+                    "label": "Password",
+                    "placeholder": "Please enter password"
+                }
+            },
+            "toasts": {
+                "authorized": {
+                    "title": "Authorized",
+                    "description": "Hi, {name}!"
+                }
+            },
+            "loginBtnText": "Log in"
+        },
+        "logout": {
+            "logoutBtn": "Logout",
+            "toasts": {
+                "success": {
+                    "title": "Logout",
+                    "description": "Logout success!"
+                }
+            }
+        },
+        "errors": {
+            "server": {
+                "emailAlreadyExists": "A user with email {input} already exists",
+                "usernameAlreadyExists": "A user with username {input} already exists"
+            },
+            "mixed": {
+                "default": "The field {path} is not valid",
+                "required": "The field {path} is required",
+                "oneOf": "The field {path} must be one of the following values: {values}",
+                "notOneOf": "The field {path} must not be one of the following values: {values}"
+            },
+            "string": {
+                "length": "The field {path} must be exactly {length} characters long",
+                "min": "The field {path} must be at least {min} characters long",
+                "max": "The field {path} must be at most {max} characters long",
+                "matches": "The field {path} must match the pattern: \"{regex}\"",
+                "email": "The field {path} must be a valid email address",
+                "url": "The field {path} must be a valid URL",
+                "trim": "The field {path} must not have leading or trailing spaces",
+                "lowercase": "The field {path} must be in lowercase",
+                "uppercase": "The field {path} must be in uppercase"
+            },
+            "number": {
+                "min": "The field {path} must be greater than or equal to {min}",
+                "max": "The field {path} must be less than or equal to {max}",
+                "lessThan": "The field {path} must be less than {less}",
+                "moreThan": "The field {path} must be greater than {more}",
+                "positive": "The field {path} must be a positive number",
+                "negative": "The field {path} must be a negative number",
+                "integer": "The field {path} must be an integer"
+            },
+            "date": {
+                "min": "The field {path} must be after {min}",
+                "max": "The field {path} must be before {max}"
+            },
+            "array": {
+                "min": "The field {path} must contain at least {min} items",
+                "max": "The field {path} must contain no more than {max} items"
+            },
+            "custom": {
+                "minPasswordLength": "Password must be at least {min} characters long"
+            }
+        }
+    },
+    "footer": {
+        "copyright": "&copy; Developed by Sanya Cherkassy OTCK."
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^3.1.0",
+    "@nuxtjs/i18n": "^9.5.3",
+    "@pinia/nuxt": "^0.5.1",
+    "cyrillic-to-translit-js": "^3.2.1",
+    "date-fns": "^2.30.0",
+    "generate-password": "^1.7.1",
+    "normalize.css": "^8.0.1",
+    "pinia": "^2.1.7",
+    "quill": "^2.0.2",
+    "v-calendar": "^3.1.2",
+    "vue": "^3.4.31",
+    "vue-quilly": "^1.0.5",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@iconify-json/heroicons": "^1.2.2",
+    "nuxt": "^3.17.1",
+    "sass": "^1.77.6",
+    "typescript": "^5.5.3",
+    "vue-tsc": "^1.8.27"
+  }
+}

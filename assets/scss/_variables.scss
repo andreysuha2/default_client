@@ -1,0 +1,8 @@
+$font-family-volja: Volja;
+$font-family-uaf-sans: UAFSans;
+
+:root {
+    --font-family-uaf-sans: #{$font-family-uaf-sans};
+    --font-family-volja: #{$font-family-volja};
+    --font-family-main: var(--font-family-uaf-sans);
+}

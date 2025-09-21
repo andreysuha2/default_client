@@ -1,0 +1,398 @@
+{
+    "responsible": {
+        "ranks": {
+            "civilian": "цивільний",
+            "soldier": "солдат",
+            "senior_soldier": "старший солдат",
+            "junior_sergeant": "молодший сержант",
+            "sergeant": "сержант",
+            "senior_sergeant": "старший сержант",
+            "main_sergeant": "головний сержант",
+            "headquarters_sergeant": "штаб-сержант",
+            "master_sergeant": "майстер-сержант",
+            "senior_master_sergeant": "старший майстер-сержант",
+            "main_master_sergeant": "головний майстер-сержант",
+            "junior_lieutenant": "молодший лейтенант",
+            "lieutenant": "лейтенант",
+            "senior_lieutenant": "старший лейтенант",
+            "capitan": "капітан",
+            "major": "майор",
+            "under_colonel": "підполковник",
+            "colonel": "полковник"
+        }
+    },
+    "pages": {
+        "home": {
+            "title": "Головна"
+        },
+        "login": {
+            "title": "Авторизація"
+        },
+        "profile": {
+            "title": "Профіль",
+            "editBtn": "Редагувати",
+            "data": {
+                "name": "Ім'я",
+                "username": "Логін",
+                "role": "Роль",
+                "createdAt": "Дата реестрації",
+                "updatedAt": "Останне оновлення"
+            }
+        },
+        "users": {
+            "title": "Користувачі",
+            "inMenu": "Користувачі",
+            "header": {
+                "totalUsers": "Всього користувачів"
+            },
+            "table": {
+                "header": {
+                    "name": "Ім'я",
+                    "username": "Логін",
+                    "role": "Роль",
+                    "status": "Активний",
+                    "controls": "Дії"
+                },
+                "controls": {
+                    "info": "Переглянути користувача",
+                    "update": "Оновити користувача",
+                    "remove": "Видалити користувача",
+                    "restore": "Відновити користувача"
+                }
+            },
+            "controls": {
+                "newUserBtn": "Додати користувача"
+            },
+            "forms": {
+                "create": {
+                    "title": "Новий користувач",
+                    "fields": {
+                        "name": {
+                            "placeholder": "Ім'я",
+                            "label": "Ім'я"
+                        },
+                        "username": {
+                            "placeholder": "Логін",
+                            "label": "Логін",
+                            "generateBtn": "Згенерувати (поле Ім'я має бути заповнене)"
+                        },
+                        "role": {
+                            "placeholder": "Роль",
+                            "label": "Роль"
+                        },
+                        "password": {
+                            "placeholder": "Пароль",
+                            "label": "Пароль",
+                            "showTitle": "Показати пароль",
+                            "hideTitle": "Сховати пароль",
+                            "generateTitle": "Згенерувати пароль"
+                        }
+                    },
+                    "submitBtn": "Створити",
+                    "errors": {
+                        "firstSecondNamesRequired": "Вкажіть ім'я та прізвище"
+                    },
+                    "toasts": {
+                        "success": {
+                            "title": "Користувача створено",
+                            "description": "Користувача {name} створено."
+                        }
+                    }
+                },
+                "update": {
+                    "title": "Редагування користувача {name}",
+                    "fields": {
+                        "name": {
+                            "placeholder": "Ім'я",
+                            "label": "Ім'я"
+                        },
+                        "username": {
+                            "placeholder": "Логін",
+                            "label": "Логін",
+                            "generateBtn": "Згенерувати (поле Ім'я має бути заповнене)"
+                        },
+                        "role": {
+                            "placeholder": "Роль",
+                            "label": "Роль"
+                        },
+                        "password": {
+                            "placeholder": "Пароль",
+                            "label": "Пароль",
+                            "showTitle": "Показати пароль",
+                            "hideTitle": "Сховати пароль",
+                            "generateTitle": "Згенерувати пароль"
+                        }
+                    },
+                    "submitBtn": "Оновити",
+                    "errors": {
+                        "firstSecondNamesRequired": "Вкажіть ім'я та прізвище"
+                    },
+                    "toasts": {
+                        "success": {
+                            "title": "Дані користувача змінено",
+                            "description": "Дані користувача {name} змінено."
+                        }
+                    }
+                },
+                "info": {
+                    "title": "Картка користувача: {name}",
+                    "fields": {
+                        "id": "ID",
+                        "name": "Ім'я",
+                        "username": "Логін",
+                        "role": "Роль",
+                        "createdAt": "Створено",
+                        "updatedAt": "Останнє оновлення",
+                        "deletedAt": "Видалено"
+                    }
+                },
+                "remove": {
+                    "title": "Видалити користувача {name}?",
+                    "submitBtn": "Видалити",
+                    "cancelBtn": "Скасувати",
+                    "toasts": {
+                        "success": {
+                            "title": "Користувача видалено!",
+                            "description": "Користувача {name} видалено."
+                        }
+                    }
+                },
+                "restore": {
+                    "title": "Відновити користувача {name}?",
+                    "submitBtn": "Відновити",
+                    "cancelBtn": "Скасувати",
+                    "toasts": {
+                        "success": {
+                            "title": "Користувача відновлено!",
+                            "description": "Користувача {name} відновлено."
+                        }
+                    }
+                }
+            }
+        },
+        "responsible": {
+            "title": "Відповідальні",
+            "inMenu": "Відповідальні",
+            "header": {
+                "totalResponsible": "Всього відповідальних"
+            },
+            "filter": {
+                "searchBtn": "Пошук",
+                "selectPlaceholder": "Звання",
+                "inputPlaceholder": "Ім'я, по-батькові, прізвище або посада...",
+                "clearSearchBtn": "Очистити пошук"
+            },
+            "controls": {
+                "newResponsibleBtn": "Додати відповідального"
+            },
+            "table": {
+                "header": {
+                    "firstName": "Ім'я",
+                    "secondName": "По-батькові",
+                    "lastName": "Прізвище",
+                    "rank": "Звання",
+                    "position": "Посада",
+                    "controls": "Дії"
+                },
+                "controls": {
+                    "info": "Переглянути відповідального",
+                    "update": "Оновити відповідального",
+                    "remove": "Видалити відповідального"
+                }
+            },
+            "forms": {
+                "create": {
+                    "title": "Новий відповідальний",
+                    "fields": {
+                        "firstName": {
+                            "placeholder": "Ім'я",
+                            "label": "Ім'я"
+                        },
+                        "secondName": {
+                            "placeholder": "По-батькові",
+                            "label": "По-батькові"
+                        },
+                        "lastName": {
+                            "placeholder": "Прізвище",
+                            "label": "Прізвище"
+                        },
+                        "rank": {
+                            "placeholder": "Завння",
+                            "label": "Завння"
+                        },
+                        "position": {
+                            "placeholder": "Посада",
+                            "label": "Посада"
+                        }
+                    },
+                    "submitBtn": "Створити",
+                    "toasts": {
+                        "success": {
+                            "title": "Відповідального створено",
+                            "description": "Користувача {rank} {firstName} {lastName} створено."
+                        }
+                    }
+                }
+            }
+        },
+        "devices": {
+            "title": "Девайси",
+            "inMenu": "Девайси",
+            "header": {
+                "totalDevices": "Всього девайсів"
+            },
+            "table": {
+                "header": {
+                    "type": "Тип",
+                    "producer": "Виробник",
+                    "model": "Модель",
+                    "serialNumber": "S/N",
+                    "responsible": "Відповідальний",
+                    "ipAddress": "IP-адреса",
+                    "macAddress": "MAC-адреса",
+                    "createdAt": "Створено",
+                    "updatedAt": "Оновлено"
+                }
+            },
+            "filter": {
+                "searchBtn": "Пошук",
+                "queryPlaceholder": "Модель, тип, S/N, виробник, MAC-адреса...",
+                "clearSearchBtn": "Очистити пошук"
+            },
+            "controls": {
+                "newDeviceBtn": "Додати девайс"
+            }
+        },
+        "networks": {
+            "title": "Мережі",
+            "inMenu": "Мережі",
+            "header": {
+                "totalNetworks": "Всього мереж"
+            },
+            "table": {
+                "header": {
+                    "address": "Адреса",
+                    "ipAddresses": "IP-адреси",
+                    "ipAddressesCount": "К-сть IP-адрес",
+                    "createdAt": "Створено",
+                    "updatedAt": "Оновлено"
+                },
+                "cells": {
+                    "show": "Переглянути"
+                }
+            },
+            "filter": {
+                "searchBtn": "Пошук",
+                "firstOctetPlaceholder": "1й октет",
+                "secondOctetPlaceholder": "2й октет",
+                "thirdOctetPlaceholder": "3й октет",
+                "clearSearchBtn": "Очистити пошук"
+            },
+            "controls": {
+                "newNetworkBtn": "Додати мережу"
+            }
+        },
+        "ipAddresses": {
+            "title": "IP-адреси",
+            "inMenu": "IP-адреси",
+            "header": {
+                "network": "Мережа",
+                "totalIPAddresses": "Всього IP-адрес"
+            },
+            "table": {
+                "header": {
+                    "address": "Адреса",
+                    "ipAddresses": "IP-адреси",
+                    "createdAt": "Створено",
+                    "updatedAt": "Оновлено"
+                }
+            },
+            "filter": {
+                "searchBtn": "Пошук",
+                "secondOctetPlaceholder": "2й октет",
+                "thirdOctetPlaceholder": "3й октет",
+                "fourthOctetPlaceholder": "4й октет",
+                "clearSearchBtn": "Очистити пошук"
+            },
+            "controls": {
+                "newIPAddressBtn": "Додати IP-адресу"
+            }
+        }
+    },
+    "forms": {
+        "login": {
+            "fields": {
+                "username": {
+                    "label": "Ім'я користувача",
+                    "placeholder": "Веддіть ім'я користувача"
+                },
+                "password": {
+                    "label": "Пароль",
+                    "placeholder": "Веддіть пароль"
+                }
+            },
+            "toasts": {
+                "authorized": {
+                    "title": "Авторизовано",
+                    "description": "Привіт, {name}!"
+                }
+            },
+            "loginBtnText": "Увійти"
+        },
+        "logout": {
+            "logoutBtn": "Вийти",
+            "toasts": {
+                "success": {
+                    "title": "Вихід",
+                    "description": "Вихід успішний!"
+                }
+            }
+        },
+        "errors": {
+            "server": {
+                "emailAlreadyExists": "Користувач з email {input} вже існує",
+                "usernameAlreadyExists": "Користувач з логіном {input} вже існує"
+            },
+            "mixed": {
+                "default": "Поле {path} не є валідним",
+                "required": "Поле {path} обов’язкове для заповнення",
+                "oneOf": "Поле {path} повинно бути одним із наступних значень: {values}",
+                "notOneOf": "Поле {path} не повинно бути одним із наступних значень: {values}"
+            },
+            "string": {
+                "length": "Поле {path} повинно містити рівно {length} символів",
+                "min": "Поле {path} повинно містити принаймні {min} символів",
+                "max": "Поле {path} повинно містити не більше {max} символів",
+                "matches": "Поле {path} повинно відповідати шаблону: \"{regex}\"",
+                "email": "Поле {path} повинно бути дійсною електронною адресою",
+                "url": "Поле {path} повинно бути дійсною URL-адресою",
+                "trim": "Поле {path} не повинно містити пробілів на початку або в кінці",
+                "lowercase": "Поле {path} повинно бути в нижньому регістрі",
+                "uppercase": "Поле {path} повинно бути у верхньому регістрі"
+            },
+            "number": {
+                "min": "Поле {path} повинно бути не менше ніж {min}",
+                "max": "Поле {path} повинно бути не більше ніж {max}",
+                "lessThan": "Поле {path} повинно бути менше ніж {less}",
+                "moreThan": "Поле {path} повинно бути більше ніж {more}",
+                "positive": "Поле {path} повинно бути позитивним числом",
+                "negative": "Поле {path} повинно бути негативним числом",
+                "integer": "Поле {path} повинно бути цілим числом"
+            },
+            "date": {
+                "min": "Поле {path} повинна бути після {min}",
+                "max": "Поле {path} повинна бути до {max}"
+            },
+            "array": {
+                "min": "Поле {path} повинно містити принаймні {min} елементів",
+                "max": "Поле {path} повинно містити не більше ніж {max} елементів"
+            },
+            "custom": {
+                "minPasswordLength": "Поле пароль має бути мінімум {min} символів"
+            }
+        }
+    },
+    "footer": {
+        "copyright": "&copy; Розроблено Санею в Черкаському ОТЦК та СП."
+    }
+}
