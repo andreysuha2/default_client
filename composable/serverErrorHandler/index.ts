@@ -23,13 +23,13 @@ export const useServerErrorHandler = (defaultMessage: string = 'Something went w
             const { detail } = err.data.body;
             if(typeof detail === 'string' || err.status !== 422) return handler(err);
             const errors = detail.map(({ loc: [, ...path], ...item }): FormError => ({
-                name: path.join("."),
+                name: path.map(i => camelize(i)).join("."),
                 message: t(
                     `forms.errors.server.${camelize(item.type)}`,
                     {
                         ...item,
                         path: t(
-                            `${formName}.fields.${path[path.length - 1]}.label`,
+                            `${formName}.fields.${camelize(path[path.length - 1])}.label`,
                             {},
                             { default: path[path.length - 1]}) },
                     { default: item.msg }
